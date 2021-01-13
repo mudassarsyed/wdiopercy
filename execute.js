@@ -1,5 +1,4 @@
 const { exec } = require('child_process');
-const { percy } = require('percy/@wbdriverio');
 if(process.env.ENVIRONMENT == 'BStack') {
   console.log("BSTACK exec")
   exec('npm run single',
