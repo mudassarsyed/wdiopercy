@@ -32,8 +32,8 @@
   },
   "scripts": {
     "test": "npm run single && npm run execute",
+    "singl": "percy exec -- npm run single",
     "singl": "./node_modules/.bin/wdio conf/single.conf.js",
-    "single" "percy exec -- npm run single",
     "execute": "test/specs/execute.mjs"
   },
   "keywords": [],
